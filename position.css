@@ -1,0 +1,144 @@
+/* position property
+default value is static
+top,right ,bottom,left */
+.static{
+    position:static;
+    left:100px;
+
+}
+/* re */
+.fixed {
+    left:100px;
+    top : 0px;
+    position:fixed;
+    
+}
+
+.relative {
+    right:1px;
+    top : 100px;
+    position:relative;
+    
+}
+
+.absolute {
+    right:1px;
+    top : 100px;
+    position:absolute;
+    
+}
+
+
+
+.topleft{
+    position:absolute;
+    top:0px;
+    left:0px;
+    color:aquamarine;
+}
+.imageparent{
+position:relative;
+    
+}
+
+
+.topright{
+    position:absolute;
+    top: 20px;
+    right:500px;
+    color:red;
+}
+.imageparent{
+ position:absolute;
+    
+}
+
+
+.bottomleft{
+    position:absolute;
+    bottom:5px;
+    left:10px;
+    color:blue;
+}
+.imageparent{
+position:absolute;
+    
+}
+
+
+.bottomright{
+    position:absolute;
+    bottom:5px;
+    right:520px;
+    color:aquamarine;
+}
+.imageparent{
+position:absolute;
+    
+}
+
+
+.center{
+    position:absolute;
+    bottom:200px;
+    right:750px;
+    color:blue;
+}
+.imageparent{
+position:absolute;
+    
+}
+
+
+.centerright{
+    position:absolute;
+    bottom:250px;
+    right:750px;
+    color:blue;
+}
+.imageparent{
+position:absolute;
+    
+}
+
+
+
+
+
+
+
+.fixed{
+    position: fixed;
+    top:0px;
+    left:0px;
+    background-color: blue;
+}
+
+
+.sticky{
+    position:sticky;
+    bottom:0px;
+    left:0px;
+    background-color:red;
+}
+
+ul{
+    list-style-type:circle ;
+    background-color: red;
+}
+
+li{
+    padding: 3px;
+    margin:0;
+}
+
+ol{
+    list-style-type: ;
+}
+/* body{
+    margin:0px;
+}
+.imagecircle{
+    border-radius: 10% ;
+
+} */

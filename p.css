@@ -1,0 +1,115 @@
+.parentimage{
+position:fixed;
+margin-left:200px;
+} 
+
+.tl{
+    position:absolute;
+    top:0px;
+    left:15px;
+    color:rgba(204, 10, 218, 0.904);
+    margin:0px;
+}
+
+
+
+
+
+
+.tr{
+    position:absolute;
+    top:0px;
+    right:0px;
+    color:rebeccapurple;
+    margin:0px;
+}
+
+
+
+
+.bl{
+    position:absolute;
+    bottom:25px;
+    left:10px;
+    color:rgb(30, 9, 225);
+    margin:0px;
+}
+
+
+.br{
+    position:absolute;
+    bottom:25px;
+    right:0px;
+    color:rgb(73, 11, 244);
+    margin:0px;
+}
+
+
+
+.c{
+    position:absolute;
+    top:200px;
+    right:130px;
+    font-size:x-large;
+    color:rebeccapurple;
+    margin:0px;
+}
+
+
+.mother{
+    position:absolute;
+    bottom:230px;
+    left:10px;
+    color:rgb(30, 9, 225);
+    margin:0px;
+}
+
+
+.father{
+    position:absolute;
+    bottom:230px;
+    right:0px;
+    color:rgb(73, 11, 244);
+    margin:0px;
+}
+
+
+
+
+
+.sweet{
+    position:absolute;
+    bottom:10px;
+    left:130px;
+    color:rgb(30, 9, 225);
+    background-color:red;
+}
+
+
+.family{
+    position:absolute;
+    bottom:420px;
+    right:140px;
+    color:rgb(73, 11, 244);
+    margin:0px;
+}
+
+
+ul{
+    background-color: brown ;
+    /* list-style-type: none; */
+}
+
+
+ ol{
+    color:aqua;
+    background-color: purple;
+} 
+/* li for verticle ,.li for horigental */
+li{
+    display:inline-block;
+
+    background-color:green;
+}
+
+ 

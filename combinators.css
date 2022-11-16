@@ -1,0 +1,22 @@
+/* descending css */
+div  p {
+    color:green;
+
+}
+
+
+/* child selector: direct children of div */
+div > p{
+color:red;
+}
+
+
+/* Adjacent sibiling selector:next to div tag  */
+div + p {
+color:rgb(255, 0, 157);
+}
+
+/* general sibling selector :out side div tag */
+div~p{
+    color: blue;
+}
